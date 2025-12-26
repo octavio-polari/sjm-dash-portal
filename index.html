@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolsa Família SJM - Login</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+
+<body>
+    <container class="body-bg">
+    
+    <div class="true_body">
+
+        <img id="logo" src="/src/assets/SJM-LOGO-HORIZONTAL-SECRETARIA.PNG" alt="">
+        
+        <form id="form_login">
+            <input type="email" name="email" id="email" placeholder="Email...">
+            <input type="password" name="password" id="password" placeholder="Password...">
+            <button id="entrar" type="submit">Entrar</button>
+        </form>
+
+    </div>
+
+    <dialog id="alertModal">
+        <div class="modal-content">
+            <h2 id="modalTitle">Alert Title</h2>
+            <p id="modalText">This is a custom alert message.</p>
+            <button onclick="closeAlertModal()">OK</button>
+        </div>
+    </dialog>
+
+    <script type="module" src="/src/scripts/app.ts"></script>
+    
+    <img class="img-bot" src="src/assets/SJM-BOT-LINE.PNG">
+</body>
+
+</html>
